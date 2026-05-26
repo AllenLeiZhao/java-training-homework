@@ -28,7 +28,7 @@ Includes PostgreSQL, MongoDB, Redis, Cassandra, and Elasticsearch running via Do
 ## AWS S3
 <img src="./AWS%20S3.png" width="700"/>
 
-## LinkedIn (500+ Connections)
+## LinkedIn
 <img src="./LinkedIn.png" width="700"/>
 
 ## Codex CLI
