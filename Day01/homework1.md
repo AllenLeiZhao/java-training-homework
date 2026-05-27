@@ -1,5 +1,9 @@
 ## Q1: List vs Set
-List could contain duplicate values but set could not.
+List is ordered and allows duplicate values, elements can be accessed by index.
+Set is unordered and does not allow duplicate values, no index access.
+Common implementations:
+List: ArrayList, LinkedList
+Set: HashSet, TreeSet, LinkedHashSet
 ## Q2: LinkedList vs ArrayList
 1. ArrayList is consecutive in memory, LinkedList is not.
 2. ArrayList can random access elements in O(1) time, LinkedList costs O(n) based on pointers.
