@@ -1,16 +1,16 @@
-#1.Java modifier scope: public, private, protected, default scope
+##1.Java modifier scope: public, private, protected, default scope
 - public: accessible to all classes in all packages
 - private: most restrictive, only accessible within the same class
 - protected: accessible within the same class, same package, and subclasses
 - default (no modifier): accessible within the same package only
 
-#2.What is static scope
+##2.What is static scope
 - can be used to decorate a variable, method, code block, or inner class
 - static variables and methods belong to the class, not to any instance, and can be called without creating an object
 - static code block is executed once when the class is first loaded by JVM, ideal for initialization logic
 - static inner class can be used and accessed without an outer class instance
 
-#3.how does classloader work
+##3.how does classloader work
 ClassLoader is responsible for loading .class files from hard disk into JVM Method Area.
 There are 3 types of ClassLoader:
 - Bootstrap ClassLoader: loads core Java libraries (java.lang, java.util, etc.)
@@ -22,11 +22,11 @@ when loading a class, it first delegates to the parent ClassLoader.
 Only if the parent cannot load it, the child ClassLoader will load it.
 This prevents core classes from being tampered with.
 
-#4.Describe the difference between unchecked and checked exceptions in Java.
+##4.Describe the difference between unchecked and checked exceptions in Java.
 - Checked exceptions: detected at compile time, must be handled with try-catch or throws keyword. Examples: IOException, SQLException
 - Unchecked exceptions: occur at runtime, not required to be handled. Examples: NullPointerException, ArrayIndexOutOfBoundsException
 
-#5.What is the difference between finally, final, and finalize in Java?
+##5.What is the difference between finally, final, and finalize in Java?
 - final:
     - final variable: cannot be reassigned after initialization
     - final method: cannot be overridden by subclasses
@@ -34,7 +34,7 @@ This prevents core classes from being tampered with.
 - finally: used in try-catch-finally block, always executed regardless of whether an exception occurs, commonly used for cleanup (e.g. closing connections)
 - finalize: called by GC before an object is garbage collected, deprecated since Java 9
 
-#6.Define try-with resource. How can you say that it differs from an ordinary try?
+##6.Define try-with resource. How can you say that it differs from an ordinary try?
 - try-with-resources automatically closes resources (e.g. files, connections) after the try block finishes, without needing a finally block.
 - The resource must implement the `AutoCloseable` interface.
 - Ordinary try requires manually closing resources in a finally block, which is verbose and error-prone.
@@ -53,7 +53,7 @@ This prevents core classes from being tampered with.
     } // conn.close() called automatically
     ```
 
-#7.Define Runtime Exception. Describe it with the help of an example.
+##7.Define Runtime Exception. Describe it with the help of an example.
 - Runtime Exception is a subclass of Exception, and is the parent class of all unchecked exceptions.
 - They occur during program execution and are not required to be handled at compile time.
 - Common examples: NullPointerException, ArrayIndexOutOfBoundsException, ClassCastException, ArithmeticException.
@@ -70,7 +70,7 @@ This prevents core classes from being tampered with.
     int result = 8 / 0; // throws ArithmeticException: / by zero
     ```
 
-#8.What is the difference between NoClassDefFoundError and ClassNotFoundException in Java
+##8.What is the difference between NoClassDefFoundError and ClassNotFoundException in Java
 - ClassNotFoundException: a checked exception, thrown when you try to load a class 
   dynamically at runtime using Class.forName() or ClassLoader.loadClass(), 
   but the class cannot be found in the classpath.
@@ -92,7 +92,7 @@ This prevents core classes from being tampered with.
     MyClass obj = new MyClass(); // throws NoClassDefFoundError at runtime
     ```
 
-#9.Why should we clean up activities such as I/O resources in the finally block?
+##9.Why should we clean up activities such as I/O resources in the finally block?
 - I/O resources such as file streams, database connections, and network sockets 
   are not managed by GC. They must be closed manually.
 - If an exception occurs in the try block, the code after it will be skipped,
@@ -117,7 +117,7 @@ This prevents core classes from being tampered with.
     }
     ```
 
-#10.Describe OutofMemoryError in exception handling.
+##10.Describe OutofMemoryError in exception handling.
 - OutOfMemoryError is a subclass of Error (not Exception), thrown when JVM 
   cannot allocate more memory and GC cannot free enough space.
 - It is an unrecoverable error, meaning the application usually cannot continue running.
@@ -144,7 +144,7 @@ How to solve:
 - Use proper thread pool configuration (avoid CachedThreadPool)
 - Analyze with tools: JProfiler, heap dump
 
-#11.What is Generics in Java? What are the advantages of using Generics?
+##11.What is Generics in Java? What are the advantages of using Generics?
 ## Q11. What is Generics in Java? What are the advantages of using Generics?
 Generics allow classes, interfaces, and methods to accept type parameters,
 enabling the same code to work with different types without duplication.
@@ -176,7 +176,7 @@ Advantages:
 2. Type safety: compile-time type checking, prevents ClassCastException at runtime
 3. No manual casting: no need to cast when retrieving objects
 
-#12.How does Generics works in Java ? What is type erasure ?
+##12.How does Generics works in Java ? What is type erasure ?
 Generics work at compile time only. The compiler uses type information to perform
 type checking and insert automatic casts, then removes (erases) all generic type
 information before generating bytecode. This process is called type erasure.
@@ -201,7 +201,7 @@ Consequence:
 - Cannot use generics with primitive types (must use wrapper classes)
 - Cannot do: new T() or T.class at runtime
 
-#13.What is the difference between List<? extends T>  and  List <? super T>?
+##13.What is the difference between List<? extends T>  and  List <? super T>?
 This follows the PECS principle: Producer Extends, Consumer Super.
 
 List<? extends T>:
@@ -230,7 +230,7 @@ Use case:
 - extends → when you only need to read from the list (Producer)
 - super → when you only need to write to the list (Consumer)
 
-#14.what is Optional class (write a demo code to use ofNullable, orElse, orElseThrow method)
+##14.what is Optional class (write a demo code to use ofNullable, orElse, orElseThrow method)
 Optional is a container class introduced in Java 8 to handle NullPointerException 
 more elegantly. Instead of returning null, a method can return an Optional object.
 
@@ -258,7 +258,7 @@ Common methods:
     String displayName = name.orElse("Unknown");
     ```
 
-#15.what is OOP
+##15.what is OOP
 OOP (Object-Oriented Programming) is a programming paradigm that organizes code 
 around objects and classes. Java is based on 4 core OOP principles:
 

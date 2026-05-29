@@ -1,20 +1,20 @@
-#1.String vs StringBuilder vs StringBuffer
+##1.String vs StringBuilder vs StringBuffer
 - String is immutable, StringBuilder and StringBuffer is mutable
 - StringBuffer is thread safe, StringBuilder is not
 - Although thread safe, StringBuffer can't guarrantee the order 
 
-#2.Comparator vs Comparable, when to use which one
+##2.Comparator vs Comparable, when to use which one
 - Both are interfaces used for sorting objects.
 - Comparable is implemented within the class itself by overriding `compareTo()`. It defines the default natural sorting order of the class.
 - Comparator is used externally by overriding `compare()`. It defines custom sorting logic without modifying the original class.
 - Comparator can be passed as a lambda expression or anonymous class when calling sort methods.
 - Use Comparable when there is one natural default order. Use Comparator when you need multiple or custom sorting strategies.
 
-#3.Overriding vs overloading
+##3.Overriding vs overloading
 - Overloding is in-class, same method different signatures, and resolved at compile time.
 - Overriding is inbetween class, same method, same signature, different behaviours, and resolved at runtime.
 
-#4.JRE vs JDK vs JVM
+##4.JRE vs JDK vs JVM
     JDK
     ├── JRE
     │   ├── JVM
@@ -26,14 +26,14 @@
 - JDK (Java Development Kit): required for development. Contains JRE + compiler (javac) + dev tools.
 - Production environments only need JRE. Developers need JDK.
 
-#5.Java 8 basic data types
+##5.Java 8 basic data types
 - Primitive type: byte(8bit), short(16bit), int(32bit), long(64bit), float(32bit), double(64bit), char(16bit), boolean(1bit)
 
-#6.Primitive type, reference type
+##6.Primitive type, reference type
 - Primitive type: byte(8bit), short(16bit), int(32bit), long(64bit), float(32bit), double(64bit), char(16bit), boolean(1bit)
 - reference type: all the objects, including wrapper classes, .e.g:String, Integer, Double
 
-#7.How does JVM work
+##7.How does JVM work
 JVM works in the following steps:
 1. **Class Loader**: loads .class bytecode files from hard disk into memory
 2. **Runtime Data Area**: allocates memory across 5 areas (Method Area, Heap, Stack, PC Register, Native Method Stack)
@@ -44,7 +44,7 @@ JVM works in the following steps:
 
 This enables "write once, run anywhere" because JVM translates the same .class bytecode into machine code for any platform.
 
-#8.JVM memory data model
+##8.JVM memory data model
 JVM has 5 runtime memory areas:
 
 | Area | Thread | Stores |
@@ -63,7 +63,7 @@ Key distinctions:
 - Static variables → Method Area
 - All new objects → Heap
 
-#9.How does GC work
+##9.How does GC work
 GC (Garbage Collection) automatically recycles objects that are no longer in use in the Heap.
 
 GC uses reachability analysis starting from GC Roots (local variables in Stack, static variables, constants).
@@ -79,7 +79,7 @@ Example:
 - `Employee e = new Employee();` → object has reference → alive
 - `e = null;` → reference broken → garbage → will be collected
 
-#10.young/old/perm generation
+##10.young/old/perm generation
 The Heap is divided into generations to optimize GC performance:
 
     Heap
@@ -101,7 +101,7 @@ Perm Generation vs Metaspace:
 - Perm Generation: fixed size, stores class metadata, prone to OutOfMemoryError
 - Metaspace (Java 8+): uses native memory, dynamically sized, more flexible
 
-#11.difference types of GC
+##11.difference types of GC
 | GC Type | Characteristics | Use Case |
 |---------|----------------|----------|
 | Serial GC | Single-threaded, Stop-the-World | Small applications |
