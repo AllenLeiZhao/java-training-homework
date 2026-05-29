@@ -195,6 +195,7 @@ public Map<Character, Long> charFreq(char[] array) {
 map():
 - Transforms each element into another element
 - One-to-one: input size = output size
+
 flatMap():
 - Transforms each element into a Stream, then flattens all streams into one
 - One-to-many: input size <= output size
