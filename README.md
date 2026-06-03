@@ -13,3 +13,4 @@ This repository is used to showcase my daily homework assignments from the Rothu
 | Day 02 | Tue, May 27, 2026 | [Day02 - homework4](./Day02/homework4.md) |
 | Day 03 | Tue, May 28, 2026 | [Day03 - homework5](./Day03/homework5.md) |
 | Day 04 | Tue, May 29, 2026 | [Day04 - mock video1](./Day04/Mock_Video1.md) |
+| Day 05 | Tue, Jun 01, 2026 | [Day05 - mock video2](./Day05/Mock_Video2.md) |
