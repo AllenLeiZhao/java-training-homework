@@ -16,3 +16,4 @@ This repository is used to showcase my daily homework assignments from the Rothu
 | Day 05 | Tue, Jun 01, 2026 | [Day05 - mock video2](./Day05/Mock_Video2.md) |
 | Day 06 | Tue, Jun 02, 2026 | [Day06 - handwriting](./Day06/README.md) |
 | Day 07 | Tue, Jun 03, 2026 | [Day07 - HW6](./HW6/HW6.md) |
+| Day 08 | Tue, Jun 04, 2026 | [Day08 - Spring_Boot_Project_1](./Spring_Boot_Project_1.md) |
