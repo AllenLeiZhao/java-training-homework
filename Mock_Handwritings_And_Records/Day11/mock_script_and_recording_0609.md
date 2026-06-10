@@ -1,4 +1,4 @@
-## Record Link: https://docs.google.com/document/d/1GOOwb6PKDhIkx3mneJmYnNk3EtEmumLk2u1iCgf60zw/edit?tab=t.0
+## Record Link: [Mock Video 06092026](https://allen-2026-learning.s3.us-east-2.amazonaws.com/Allen_Mock_0609.mp4)
 
 ## 1. How to write Restful API in Spring Boot?
 To build a REST API in Spring Boot, I follow the three-tier architecture and map each HTTP method to a CRUD operation.
