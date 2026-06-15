@@ -18,3 +18,6 @@ This repository is used to showcase my daily homework assignments from the Rothu
 | Day 09 | Fri, Jun 05, 2026 | [Day09 - HW7](./HW7/HW7.md)<br> [Day09 - HW8](./HW8/HW8.md)<br> [Day09 - Handwriting](./Mock_Handwritings_And_Records/Day09/0605.md)|
 | Day 10 | Mon, Jun 08, 2026 | [Day10 - HW9](./HW9/HW9.md)<br> [Day10 - Handwriting](./Mock_Handwritings/Day10/0608.md)|
 | Day 11 | Tue, Jun 09, 2026 | [Day11 - HW10 + AOP PR](./HW10/HW10.md)<br> [Day11 - Mock Script and Video](./Mock_Handwritings_And_Records/Day11/mock_script_and_recording_0609.md)|
+| Day 12 | Wed, Jun 10, 2026 | [Day12 - HW11 + Actuator PR](./HW11/HW11.md)|
+| Day 13 | Thu, Jun 11, 2026 | [Day13 - HW12 + Project PR](./HW12/HW12.md)|
+| Day 14 | Fri, Jun 12, 2026 | [Day14 - Mock Video + Endpoint Design](./Mock_Handwritings_And_Records/Day14/0612.md)|
