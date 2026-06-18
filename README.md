@@ -23,3 +23,4 @@ This repository is used to showcase my daily homework assignments from the Rothu
 | Day 14 | Fri, Jun 12, 2026 | [Day14 - Mock Video + Endpoint Design](./Mock_Handwritings_And_Records/Day14/0612.md)|
 | Day 15 | Mon, Jun 15, 2026 | [Day15 - HW13](./HW13/HW13.md)<br> [Mock Video & Script](./Mock_Handwritings_And_Records/Day15/0615.md)|
 | Day 16 | Tue, Jun 16, 2026 | [Day16 - HW14](./HW14/HW14.md)<br> [Mock Video & Script](./Mock_Handwritings_And_Records/Day16/0616.md)|
+| Day 17 | Wed, Jun 17, 2026 | [Day17 - HW15](./HW15/HW15.md)<br> [Mock Video & Script](./Mock_Handwritings_And_Records/Day17/0617.md)|
