@@ -24,3 +24,4 @@ This repository is used to showcase my daily homework assignments from the Rothu
 | Day 15 | Mon, Jun 15, 2026 | [Day15 - HW13](./HW13/HW13.md)<br> [Mock Video & Script](./Mock_Handwritings_And_Records/Day15/0615.md)|
 | Day 16 | Tue, Jun 16, 2026 | [Day16 - HW14](./HW14/HW14.md)<br> [Mock Video & Script](./Mock_Handwritings_And_Records/Day16/0616.md)|
 | Day 17 | Wed, Jun 17, 2026 | [Day17 - HW15](./HW15/HW15.md)<br> [Mock Video & Script](./Mock_Handwritings_And_Records/Day17/0617.md)|
+| Day 18 | Thu, Jun 18, 2026 | [Day18 - HW16](./HW16/HW16.md)<br> [Mock Video & Script](./Mock_Handwritings_And_Records/Day18/0618.md)<br> [Hibernate Project](www.google.com)|
