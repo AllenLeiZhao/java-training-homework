@@ -26,6 +26,6 @@ This repository is used to showcase my daily homework assignments from the Rothu
 | Day 17 | Wed, Jun 17, 2026 | [Day17 - HW15](./HW15/HW15.md)<br> [Mock Video & Script](./Mock_Handwritings_And_Records/Day17/0617.md)|
 | Day 18 | Thu, Jun 18, 2026 | [Day18 - HW16](./HW16/HW16.md)<br> [Mock Video & Script](./Mock_Handwritings_And_Records/Day18/0618.md)<br> [Hibernate Project](https://github.com/AllenLeiZhao/employee-department)|
 | Day 19 | Fri, Jun 19, 2026 | [Day19 - Mock Video & Script](./Mock_Handwritings_And_Records/Day19/0619.md)|
-| Day 24 | Fri, Jun 26, 2026 | [Day24 - HW17](./HW17/HW17.md)|
-| Day 28 | Thu, Jul 02, 2026 | [Day28 - HW19](./HW19/HW19.md)|
-| Day 30 | Mon, Jul 06, 2026 | [Day30 - HW20](./HW20/HW20.md)<br> [CI/CD: JaCoCo + SonarQube Pipeline](https://github.com/AllenLeiZhao/employee-department)|
+| Day 22 | Wed, Jun 24, 2026 | [Day22 - HW17](./HW17/HW17.md)|
+| Day 26 | Wed, Jul 01, 2026 | [Day26 - HW19](./HW19/HW19.md)|
+| Day 27 | Thu, Jul 02, 2026 | [Day27 - HW20](./HW20/HW20.md)<br> [CI/CD: JaCoCo + SonarQube Pipeline](https://github.com/AllenLeiZhao/employee-department)|
