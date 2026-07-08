@@ -30,3 +30,4 @@ This repository is used to showcase my daily homework assignments from the Rothu
 | Day 26 | Wed, Jul 01, 2026 | [Day26 - HW19](./HW19/HW19.md)|
 | Day 27 | Thu, Jul 02, 2026 | [Day27 - HW20](./HW20/HW20.md)<br> [CI/CD: JaCoCo + SonarQube Pipeline](https://github.com/AllenLeiZhao/employee-department)|
 | Day 28 | Mon, Jul 06, 2026 | [Day28 - HW21](./HW21/HW21.md)<br> [Security: Spring Security + Google OAuth 2.0](https://github.com/AllenLeiZhao/employee-department)|
+| Day 29 | Tue, Jul 07, 2026 | [Day29 - HW22](./HW22/HW22.md)|
