@@ -32,3 +32,4 @@ This repository is used to showcase my daily homework assignments from the Rothu
 | Day 28 | Mon, Jul 06, 2026 | [Day28 - HW21](./HW21/HW21.md)<br> [Security: Spring Security + Google OAuth 2.0](https://github.com/AllenLeiZhao/employee-department)|
 | Day 29 | Tue, Jul 07, 2026 | [Day29 - HW22](./HW22/HW22.md)|
 | Day 30 | Wed, Jul 08, 2026 | [Day30 - HW22 Kafka code implementation](./HW22/HW22.md)<br> [Kafka: 3-broker cluster + producer/consumer](https://github.com/AllenLeiZhao/employee-department)|
+| Day 31 | Thu, Jul 09, 2026 | [Day31 - HW23](./HW23/HW23.md)<br> [Angular UI: dual login (password/Google) + employee CRUD](https://github.com/AllenLeiZhao/employee-department)|
