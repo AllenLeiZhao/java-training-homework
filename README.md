@@ -33,3 +33,4 @@ This repository is used to showcase my daily homework assignments from the Rothu
 | Day 29 | Tue, Jul 07, 2026 | [Day29 - HW22](./HW22/HW22.md)|
 | Day 30 | Wed, Jul 08, 2026 | [Day30 - HW22 Kafka code implementation](./HW22/HW22.md)<br> [Kafka: 3-broker cluster + producer/consumer](https://github.com/AllenLeiZhao/employee-department)|
 | Day 31 | Thu, Jul 09, 2026 | [Day31 - HW23](./HW23/HW23.md)<br> [Angular UI: dual login (password/Google) + employee CRUD](https://github.com/AllenLeiZhao/employee-department)|
+| Post-final Day 1 | Wed, Jul 22, 2026 | [Final Evaluation Review & Microservice Architecture](./2026-07-22/2026-07-22.md)|
